@@ -6,6 +6,7 @@ export default function App() {
     <>
       <Header />
       <main className="container">
+        {/* Passando as propriedades para o componente Entry */}
         <Entry
           img={{
             src: "https://scrimba.com/links/travel-journal-japan-image-url",
